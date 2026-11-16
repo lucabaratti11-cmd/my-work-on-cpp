@@ -31,5 +31,5 @@ Il codice è scritto e testato utilizzando **Visual Studio Code** con il compila
 
 ## Nota su Contributi e Utilizzo
 
-* **Contributi:** Questo è un archivio personale, quindi non accetto *Pull Request* o modifiche esterne. Se sei un mio amico e noti un errore, scrivimi pure in privato!
+* **Contributi:** Questo è un archivio personale, quindi non accetto *Pull Request* o modifiche esterne. Se noti un errore, scrivimi pure in privato!
 * **Copyright e Licenza:** **Tutti i diritti riservati.** Il codice è visibile pubblicamente solo a scopo di consultazione e studio. Non è consentito copiare, ridistribuire o utilizzare questo materiale per consegnare i propri compiti senza permesso.
