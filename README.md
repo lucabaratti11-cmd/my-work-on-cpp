@@ -13,6 +13,7 @@ The source files cover practical exercises and small experiments. Some are inten
 - **[`compiti c++/`](compiti%20c%2B%2B/)** — coursework and numbered programming exercises. Exercise files are named to make them easy to locate and follow.
 - **[`altri lavori/`](altri%20lavori/)** — additional work and experiments that do not belong to the numbered coursework collection.
 - **[`.vscode/`](.vscode/)** — Visual Studio Code build and debug configurations. These are currently set up for `g++` and GDB on Windows with MSYS2 UCRT64; adjust the compiler and debugger paths if your environment differs.
+- **[`CONTRIBUTING.md`](CONTRIBUTING.md)** — guidelines for reporting issues and proposing changes.
 
 Most `.cpp` files are standalone programs. Unless a file or its accompanying instructions say otherwise, compile one source file at a time rather than attempting to build the entire repository as a single application.
 
@@ -62,7 +63,7 @@ The `-std=c++17` option selects the C++17 language standard, while `-Wall -Wextr
 
 ## Contributing and feedback
 
-This repository is primarily a personal learning archive, and external contributions are not currently expected. If you notice an issue or have a suggestion, you are welcome to get in touch with me. Please check the source and assignment context before reusing an example, as some solutions may be specific to their original exercises.
+This repository is primarily a personal learning archive, and external contributions are not currently expected. If you notice an issue or have a suggestion, please read the [contribution guidelines](CONTRIBUTING.md) before getting in touch. Please check the source and assignment context before reusing an example, as some solutions may be specific to their original exercises.
 
 ## License
 
@@ -70,4 +71,4 @@ The contents of this repository are made available under the **MIT License**. Yo
 
 ## Disclaimer
 
-These programs are provided for educational purposes. They may be incomplete, contain errors, or require adaptation for a particular compiler or environment. Review and test code before relying on it in another project.
+These programs are provided for educational purposes. They may be incomplete, contain errors, or require adaptation for a particular compiler or environment. Review and test code before relying on them in another project.
