@@ -4,19 +4,19 @@
 [![Editor: Visual Studio Code](https://img.shields.io/badge/Editor-Visual%20Studio%20Code-007ACC?logo=visualstudiocode&logoColor=white)](https://code.visualstudio.com/)
 [![License: All Rights Reserved](https://img.shields.io/badge/License-All%20Rights%20Reserved-red.svg)](LICENSE)
 
-A collection of C++ coursework, programming exercises, and personal learning projects. This repository documents my progress with the language and keeps examples available for viewing and study.
+A collection of C++ coursework, programming exercises, and personal learning projects. This repository documents my progress with the language and keeps examples available for study, reference, and review.
 
 ## Repository structure
 
 - `exercises/` — coursework and numbered programming exercises.
-- `.vscode/` — optional Visual Studio Code build and debug configuration. The current configuration is tailored to Windows with MSYS2 UCRT64 and may need adjustment on other systems.
-- `LICENSE` — usage terms for original material in this repository.
+- `.vscode/` — optional Visual Studio Code build and debug configuration. The current setup is tailored to Windows with MSYS2 UCRT64 and may need adjustments for other systems.
+- `LICENSE` — copyright and usage terms for the original material in this repository.
 
-Compile standalone `.cpp` files individually unless an exercise says otherwise.
+Compile standalone `.cpp` files individually unless an exercise specifically requires otherwise.
 
 ## Requirements
 
-Install a C++ compiler and make it available from your terminal. Common choices include GCC (`g++`), Clang, and Microsoft Visual C++ (MSVC). The checked-in VS Code configuration is optional and uses Windows-specific MSYS2 paths.
+Install a C++ compiler and make it available from your terminal. Common choices include GCC (`g++`), Clang, and Microsoft Visual C++ (MSVC). The included VS Code configuration is optional and uses Windows-specific MSYS2 paths.
 
 ## Build and run
 
@@ -33,13 +33,15 @@ On Windows PowerShell, run the resulting executable with:
 .\exercise-01.exe
 ```
 
-Replace the source filename with the exercise you want to compile. If the files in your local checkout have different names or paths, use those actual paths.
+Replace the filename with the exercise you want to compile. If the files in your local checkout have different names or paths, use those actual paths.
 
-## Copyright and permissions
+## Copyright and usage
 
-This repository is public so its contents can be viewed. **It is not open-source software, and public access does not grant permission to copy, modify, redistribute, publish, or use the code in another project.** All rights to my original work are reserved unless I give prior written permission.
+This repository is public for viewing and educational purposes only. All original content remains the intellectual property of Luca Baratti.
 
-If you want to use or obtain permission to use my original code, contact me first. A paid license may be available; the fee and terms must be agreed in writing before use. Payment alone does not grant rights unless the license terms are agreed. Material created by other people or supplied for coursework may be subject to separate rights and terms.
+Reuse, redistribution, modification, or commercial use of the code requires prior written authorization. In some cases, a separate agreement and fee may apply.
+
+Third-party material and coursework examples may be subject to different rights and terms.
 
 ## Disclaimer
 
