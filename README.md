@@ -1,70 +1,46 @@
 # My Work on C++
 
-[![C++](https://img.shields.io/badge/Language-C%2B%2B-00599C?logo=cplusplus&logoColor=white)](https://isocpp.org/)
-[![Visual Studio Code](https://img.shields.io/badge/Editor-Visual%20Studio%20Code-007ACC?logo=visualstudiocode&logoColor=white)](https://code.visualstudio.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Language: C++](https://img.shields.io/badge/Language-C%2B%2B-00599C?logo=cplusplus&logoColor=white)](https://isocpp.org/)
+[![Editor: Visual Studio Code](https://img.shields.io/badge/Editor-Visual%20Studio%20Code-007ACC?logo=visualstudiocode&logoColor=white)](https://code.visualstudio.com/)
+[![License: All Rights Reserved](https://img.shields.io/badge/License-All%20Rights%20Reserved-red.svg)](LICENSE)
 
-This repository contains my coursework, programming exercises, and selected personal projects written in C++. It is organized as a learning archive to track my progress as I improve my C++ skills and keep practical examples easy to review.
-
-The material includes standalone exercises, small experiments, and personal implementations. The repository is primarily educational and intended for study, reference, and code review.
+A collection of C++ coursework, programming exercises, and personal learning projects. This repository documents my progress with the language and keeps examples available for viewing and study.
 
 ## Repository structure
 
-- `exercises/` — numbered coursework and practice exercises.
-- `projects/` — personal experiments and small standalone projects.
-- `.vscode/` — Visual Studio Code configuration for build and debug tasks.
-- `CONTRIBUTING.md` — contribution and feedback guidance.
-- `LICENSE` — MIT license terms.
+- `exercises/` — coursework and numbered programming exercises.
+- `.vscode/` — optional Visual Studio Code build and debug configuration. The current configuration is tailored to Windows with MSYS2 UCRT64 and may need adjustment on other systems.
+- `LICENSE` — usage terms for original material in this repository.
 
-Legacy folders are still kept for compatibility:
-
-- `compiti c++/` — previous coursework naming.
-- `altri lavori/` — earlier personal work folder.
+Compile standalone `.cpp` files individually unless an exercise says otherwise.
 
 ## Requirements
 
-To build and run the examples, install a C++ compiler and make it available from your terminal. Common options include:
+Install a C++ compiler and make it available from your terminal. Common choices include GCC (`g++`), Clang, and Microsoft Visual C++ (MSVC). The checked-in VS Code configuration is optional and uses Windows-specific MSYS2 paths.
 
-- GCC (`g++`), available through MSYS2 on Windows or package managers on Linux/macOS.
-- Clang, available from the LLVM project.
-- Microsoft Visual C++ (MSVC), available with Visual Studio or the Build Tools for Visual Studio.
+## Build and run
 
-The VS Code configuration in this repository is optional and tailored to a Windows MSYS2 toolchain. It may need path adjustments depending on the machine.
-
-## Using Visual Studio Code
-
-1. Clone or download this repository.
-2. Open the repository folder in VS Code.
-3. Open the `.cpp` file you want to inspect or run.
-4. Use the built-in C/C++ build or debug command, or compile from the terminal.
-
-For installation instructions, see the official VS Code website and the C/C++ extension documentation.
-
-## Build and run from a terminal
-
-From the repository root, compile a sample exercise with GCC:
+From the repository root, for example:
 
 ```bash
 g++ -std=c++17 -Wall -Wextra "exercises/exercise-01.cpp" -o exercise-01
 ./exercise-01
 ```
 
-On Windows PowerShell or Command Prompt, run the compiled binary with:
+On Windows PowerShell, run the resulting executable with:
 
 ```powershell
 .\exercise-01.exe
 ```
 
-To compile a different file, replace `exercise-01.cpp` with the file you want to build and choose a suitable output name.
+Replace the source filename with the exercise you want to compile. If the files in your local checkout have different names or paths, use those actual paths.
 
-## Contributing and feedback
+## Copyright and permissions
 
-This repository is primarily a personal learning archive, so external contributions are not normally expected. If you notice an issue or have a suggestion, please read the contribution guidelines first.
+This repository is public so its contents can be viewed. **It is not open-source software, and public access does not grant permission to copy, modify, redistribute, publish, or use the code in another project.** All rights to my original work are reserved unless I give prior written permission.
 
-## License
-
-This repository is distributed under the MIT License. See `LICENSE` for full terms.
+If you want to use or obtain permission to use my original code, contact me first. A paid license may be available; the fee and terms must be agreed in writing before use. Payment alone does not grant rights unless the license terms are agreed. Material created by other people or supplied for coursework may be subject to separate rights and terms.
 
 ## Disclaimer
 
-The programs in this repository are provided for educational purposes. They may be incomplete, contain errors, or require adaptation for a specific compiler or environment.
+The examples are provided for educational purposes and may be incomplete, contain errors, or require adaptation for a particular compiler or environment.
