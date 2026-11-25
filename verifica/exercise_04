@@ -1,0 +1,56 @@
+#include <iostream>
+
+int main() {
+    const int INTERESSE = 2; // dichiaro costanti e variabili
+     double saldo = 1000.0;
+     double input_2;  
+     std::string input_1;
+     
+
+    std::cout << "=======CONTO BANCARIO=======" << std::endl; // esprimo la richiesta
+    std::cout << "" << std::endl;
+    std::cout << "" << std::endl;
+    std::cout << "1 - visualizza saldo" << std::endl;
+    std::cout << "" << std::endl;
+    std::cout << "2 - deposita denaro" << std::endl;
+    std::cout << "" << std::endl;
+    std::cout << "3 - preleva denaro" << std::endl;
+    std::cout << "" << std::endl;
+    std::cout << "4 - calcola interessi" << std::endl;
+    std::cout << "" << std::endl;
+    std::cout << "scegli un opzione : " ;
+
+    std::cin >> input_1;
+
+    if (input_1 == "1") // sequenza di if, else if, else per ricevere l'input desiderato
+    {
+        std::cout << "il tuo saldo è di " << saldo << "$";
+    }
+
+    else if (input_1 == "2") // sequenza di if, else if, else per ricevere l'input desiderato
+    {
+        std::cout << "seleziona la quntita di denaro che si vuole depositare" << std::endl;
+        std::cin >> input_2;
+        std::cout << "il nuovo saldo è di " << (saldo + input_2) << "$";
+
+    }
+    else if (input_1 == "3") // sequenza di if, else if, else per ricevere l'input desiderato
+    {
+        std::cout << "inserrisci la quantia di denaro che si vuole prelevare" << std::endl; 
+        std::cin >> input_2;
+
+        if (input_2 < saldo){
+            std::cout << "il nuovo saldo è di " << (saldo - input_2) << "$";
+        }
+        else {
+            std::cout << "saldo insuffucente";
+        }
+    }
+    else if (input_1 == "4") // sequenza di if, else if, else per ricevere l'input desiderato
+    {
+        std::cout << "calcolando gli interessi del 2% il saldo ammonta a " << (saldo * 2 / 100) + saldo << "$";
+    }
+    else {std::cout << "operazione non valida";}
+    
+    return 0; // tengo aperto il programma per far visualizzare la risposta
+}
