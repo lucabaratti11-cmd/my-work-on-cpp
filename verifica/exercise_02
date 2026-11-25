@@ -1,0 +1,26 @@
+#include <iostream>
+
+int main ()
+{
+    std::cout << "inserisci la tua eta' " << std::endl;
+
+    int eta;
+    std::cin >> eta;
+
+    if (eta <= 12 && eta > 0) { // Se l'età è minore di 13, stampa "Bambino"
+        std::cout << "sei un Bambino" << std::endl; 
+    } else if (eta >= 13 && eta <= 17) { // Se l'età è compresa tra 13 e 17, stampa "Adolescente"
+        std::cout << "sei un Adolescente" << std::endl;
+    } else if (eta >= 18 && eta <= 64) { // Se l'età è maggiore o uguale a 18 e minore di 64, stampa "Adulto"
+        std::cout << "sei un Adulto" << std::endl;
+    }
+    else if (eta >= 65){
+        std::cout << "sei un anziano" << std::endl; // se l eta è maggiore o uguale a 65, stampa "anziano"
+    }
+
+    else {
+        std::cout << "eta non valida"; 
+    }
+    
+    return 0;
+}
