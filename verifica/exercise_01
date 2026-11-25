@@ -4,6 +4,7 @@ int main ()
 {
     const int VALORE_1 = 100; // dichiaro costanti e variabili 
     const int VALORE_2 = 250;
+    
     int kWh;
     
     std::cout << "quanti kWh hai consumato" << std::endl; // esprimo la richiesta
@@ -12,14 +13,20 @@ int main ()
 
     if (VALORE_1 >= kWh) // sequenza di if, else if, else per ricevere l'input desiderato
     {
-        std::cout << "il costo è 0.15 $ per kWh";}
+        std::cout << "il costo è 0.15 $ per kWh" << std::endl;
+        std::cout << "il costo totale è " << (kWh * 0.15) << "$";}
 
     else if (kWh > VALORE_1 && kWh <= VALORE_2) 
     {
-        std::cout << "il costo è 0,20 $ per kWh";}
+        std::cout << "il costo è 0,20 $ per kWh"<< std::endl;
+        std::cout << "il costo totale è " << (kWh * 0.20) << "$";}
+
 
     else
-    {std::cout << "il costo è 0,25 $ per kWh";} 
+    {std::cout << "il costo è 0,25 $ per kWh" << std::endl;
+    std::cout << "il costo totale è " << (kWh * 0.25) << "$";}
+
+     
 
     std::cin >> kWh; // tengo aperto il programma per far visualizzare la risposta 
     
