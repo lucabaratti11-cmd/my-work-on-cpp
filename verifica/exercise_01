@@ -1,0 +1,27 @@
+#include <iostream>
+
+int main ()
+{
+    const int VALORE_1 = 100; // dichiaro costanti e variabili 
+    const int VALORE_2 = 250;
+    int kWh;
+    
+    std::cout << "quanti kWh hai consumato" << std::endl; // esprimo la richiesta
+
+    std::cin >> kWh; // leggo la varibile 
+
+    if (VALORE_1 >= kWh) // sequenza di if, else if, else per ricevere l'input desiderato
+    {
+        std::cout << "il costo è 0.15 $ per kWh";}
+
+    else if (kWh > VALORE_1 && kWh <= VALORE_2) 
+    {
+        std::cout << "il costo è 0,20 $ per kWh";}
+
+    else
+    {std::cout << "il costo è 0,25 $ per kWh";} 
+
+    std::cin >> kWh; // tengo aperto il programma per far visualizzare la risposta 
+    
+    return 0;
+}
