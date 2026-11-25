@@ -4,7 +4,7 @@ int main() {
     const int INTERESSE = 2; // dichiaro costanti e variabili
      double saldo = 1000.0;
      double input_2;  
-     std::string input_1;
+     std::string input_1; 
      
 
     std::cout << "=======CONTO BANCARIO=======" << std::endl; // esprimo la richiesta
@@ -29,9 +29,9 @@ int main() {
 
     else if (input_1 == "2") // sequenza di if, else if, else per ricevere l'input desiderato
     {
-        std::cout << "seleziona la quntita di denaro che si vuole depositare" << std::endl;
+        std::cout << "seleziona la quntita di denaro che si vuole depositare" << std::endl; // esprimo la richiesta
         std::cin >> input_2;
-        std::cout << "il nuovo saldo è di " << (saldo + input_2) << "$";
+        std::cout << "il nuovo saldo è di " << (saldo + input_2) << "$"; // calcolo il nuovo saldo
 
     }
     else if (input_1 == "3") // sequenza di if, else if, else per ricevere l'input desiderato
@@ -40,7 +40,7 @@ int main() {
         std::cin >> input_2;
 
         if (input_2 < saldo){
-            std::cout << "il nuovo saldo è di " << (saldo - input_2) << "$";
+            std::cout << "il nuovo saldo è di " << (saldo - input_2) << "$"; // calcolo il nuovo saldo
         }
         else {
             std::cout << "saldo insuffucente";
@@ -48,9 +48,9 @@ int main() {
     }
     else if (input_1 == "4") // sequenza di if, else if, else per ricevere l'input desiderato
     {
-        std::cout << "calcolando gli interessi del 2% il saldo ammonta a " << (saldo * 2 / 100) + saldo << "$";
+        std::cout << "calcolando gli interessi del 2% il saldo ammonta a " << (saldo * 2 / 100) + saldo << "$"; // calcolo il nuovo saldo
     }
-    else {std::cout << "operazione non valida";}
+    else {std::cout << "operazione non valida";} // sequenza di if, else if, else per ricevere l'input desiderato
     
     return 0; // tengo aperto il programma per far visualizzare la risposta
 }
