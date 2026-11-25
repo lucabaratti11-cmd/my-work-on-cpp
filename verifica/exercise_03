@@ -1,0 +1,28 @@
+#include <iostream>
+
+using namespace std;
+
+int main ()
+{
+    int n = 0;
+
+    cout << "inserisci un numero intero" << endl; // specifica l'imput che si vuole ricevere
+
+    cin >> n; // acquisizione del numero intero
+
+    if (n > 0) // controllo se il numero è positivo
+    {
+        if ((n % 2) == 0){cout << "il numero è pari e positivo";}// controllo se il numero è pari
+        else {cout << "il numero è dispari e positivo";}// controllo se il numero è dispari
+    }
+
+    else if (n < 0)// controllo se il numero è negativo
+    {
+        if ((n % 3) == 0){cout << "il numero è multiplo di 3 e negativo";}// controllo se il numero è multiplo di 3
+        else {cout << "il numero non è multiplo di 3 e negativo";}// controllo se il numero non è multiplo di 3
+    }
+    else {cout << "il numero è zero";}// controllo se il numero è zero
+
+
+    return 0;
+}
